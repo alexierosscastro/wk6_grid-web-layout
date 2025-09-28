@@ -1,8 +1,7 @@
-/* Background image with 50% opacity */
+
 body {
   margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 body::before {
@@ -17,10 +16,11 @@ body::before {
   z-index: -1;
 }
 
-/* Main grid: two equal-width columns */
+
 .grid-container  {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto; 
   gap: 20px;
   padding: 40px;
   min-height: 100vh;
@@ -54,6 +54,10 @@ body::before {
 
 .box3 {
   background-color: rgba(255, 255, 255, 100); 
+}
+
+.box4 {
+  background-color: #ffffff;
 }
 
 .grid-box h2, .grid-box p, .grid-box li, .grid-box blockquote {
