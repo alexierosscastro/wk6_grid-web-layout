@@ -81,3 +81,13 @@ h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif 
   }
 
+.quote {
+  font-style: italic;
+  margin: 1em 0;
+}
+
+ul li {
+  margin-bottom: 15px; 
+}
+
+
