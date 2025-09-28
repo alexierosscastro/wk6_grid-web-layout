@@ -12,7 +12,7 @@ body {
 
 body::before {
     content: "";
-    background-image: url(frutigeraerobackground.png); 
+    background-image: url(../frutigeraerobackground.png); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
